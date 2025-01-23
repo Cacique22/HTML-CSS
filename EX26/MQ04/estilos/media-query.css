@@ -5,6 +5,10 @@
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
+
+    main{
+        width: 400px;
+    }
     
     img#tel { display: none;}
     img#impr { display: none;}
@@ -18,6 +22,11 @@
     body{
         background-image: url(../imagens/back-pc.jpg);
     }
+
+    main{
+        width: 550px;
+    }
+    
     
     img#tel { display: none;}
     img#impr { display: none;}
@@ -31,6 +40,11 @@
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
+
+    main{
+        width: 750px;
+    }
+    
     
     img#tel { display: none;}
     img#impr { display: none;}
