@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 768px) and (max-width: 1100px){
+@media screen and (min-width: 768px) and (max-width: 1300px){
 
     body{
         background-image: url(../imagens/back-tablet.jpg);
@@ -17,7 +17,7 @@
     img#pc { display: none;}
 }
 
-@media screen and (min-width: 1100px) and (max-width: 1400px){
+@media screen and (min-width: 1300px) and (max-width: 1500px){
 
     body{
         background-image: url(../imagens/back-pc.jpg);
@@ -35,7 +35,7 @@
     img#pc { display: block;}
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
 
     body{
         background-image: url(../imagens/back-tv.jpg);
