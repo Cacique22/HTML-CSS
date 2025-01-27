@@ -11,7 +11,7 @@ html, body{
     background-color: rgb(216, 216, 216);
     position: relative;
     height: 100vh;
-    width: 98.9vw;
+    width: 96vw;
 }
 
 header{
@@ -43,6 +43,24 @@ header li:hover{
 header a{
     color: white;
     text-decoration: none;
+    
+}
+
+span#menu{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#menu:hover{
+    background-color: white;
+    color:rgb(39, 39, 39);
+}
+
+menu{
+    display: none;
 }
 
 
@@ -64,22 +82,3 @@ article p{
     font-size: 1em
 }
 
-footer{
-    background-color: rgb(78, 78, 78);
-    text-align: center;
-    padding: 7px;
-    margin-top: 20px;
-    display: inline-block;
-    position: absolute;
-    left: -1%;
-    top: 100%;
-    width: 98.85vw;
-    scrollbar-width: none;
-
-}
-
-footer a{
-    color: white;
-    text-decoration: none;
-
-}
